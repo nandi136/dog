@@ -1,0 +1,16 @@
+[
+{
+  "modid": "org.diamond.dog",
+  "name": "Diamond Dog",
+  "description": "Diamond dog.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nándor Farkas Mészáros"],
+  "credits": "To me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
