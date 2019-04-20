@@ -2,15 +2,26 @@
 <projectDescription>
 	<name>diamond</name>
 	<comment></comment>
-	<projects/>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
+	<projects>
+	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments/>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/Gradle.launch</value>
+				</dictionary>
+			</arguments>
 		</buildCommand>
 	</buildSpec>
-	<linkedResources/>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
 </projectDescription>
